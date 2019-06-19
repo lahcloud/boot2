@@ -8,6 +8,7 @@ public class CalendarController {
 
 	@RequestMapping(value = "/calendarSelectAll")
 	public Object calendarSelectAll() {
+		//.calendarSelectAll()..
 		return "calendarSelectAll";
 
 	}
