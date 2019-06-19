@@ -8,7 +8,7 @@ public class CalendarController {
 
 	@RequestMapping(value = "/calendarSelectAll")
 	public Object calendarSelectAll() {
-		return "calendarSelectAll1";
+		return "calendarSelectAll";
 
 	}
 }
